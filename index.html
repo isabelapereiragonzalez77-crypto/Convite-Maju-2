@@ -1,107 +1,64 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maju faz 15</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400&display=swap');
 
-        /* Fade-in Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+    <link rel="stylesheet" href="style.css">
 
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #fdfbf7;
-            font-family: 'Montserrat', sans-serif;
-            color: #4a4a4a;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            animation: fadeIn 1.5s ease-in; /* Animação aplicada aqui */
-        }
-
-        .container {
-            width: 90%;
-            max-width: 500px;
-            background: #ffffff;
-            padding: 40px;
-            text-align: center;
-            border: 1px solid #d4af37;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-
-        h1 {
-            font-family: 'Playfair Display', serif;
-            color: #b8860b;
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            letter-spacing: 2px;
-        }
-
-        .info {
-            margin: 30px 0;
-            font-size: 1.1rem;
-        }
-
-        .highlight {
-            font-weight: bold;
-            color: #d4af37;
-        }
-
-        .obs {
-            font-style: italic;
-            font-size: 0.9rem;
-            margin-top: 15px;
-            color: #777;
-        }
-
-        .button-group {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-top: 30px;
-        }
-
-        .btn {
-            display: block;
-            padding: 12px 20px;
-            text-decoration: none;
-            color: #fff;
-            background-color: #b8860b;
-            border-radius: 5px;
-            font-weight: 400;
-            transition: background 0.3s;
-        }
-
-        .btn:hover {
-            background-color: #d4af37;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Maju faz 15</h1>
-        
-        <div class="info">
-            <p>Data: <span class="highlight">04/10</span></p>
-            <p>Horário: <span class="highlight">12:00</span></p>
-            <p>Local: Estrada do Rio Grande, 2813, Taquara, Rio de Janeiro</p>
-            <p class="obs">Obs: Favor levar traje de banho com short.</p>
-        </div>
 
-        <div class="button-group">
-            <a href="https://www.google.com/maps/search/?api=1&query=Estrada+do+Rio+Grande,+2813+Taquara+Rio+de+Janeiro" class="btn">Ver Localização no Maps</a>
-            <a href="https://wa.me/5521968910172" class="btn">Confirmar Presença</a>
-            <!-- Certifique-se de que o arquivo 'lista1.png' esteja carregado no repositório -->
-            <a href="lista1.png" class="btn">Sugestão de Presentes</a>
-        </div>
+<div class="container">
+
+    <h1>Maju faz 15</h1>
+
+    <p class="frase">
+        Você é nosso convidado para celebrar esse momento tão especial.
+    </p>
+
+    <div class="card">
+
+        <h2>04/10</h2>
+
+        <p><strong>Horário:</strong> 12:00</p>
+
+        <p><strong>Local:</strong></p>
+
+        <p>
+            Estrada do Rio Grande, 2813<br>
+            Taquara - Rio de Janeiro
+        </p>
+
+        <p class="obs">
+            ✨ Traje de banho + short
+        </p>
+
     </div>
+
+    <a class="botao"
+       href="https://maps.google.com/?q=Estrada+do+Rio+Grande,+2813+Taquara+Rio+de+Janeiro"
+       target="_blank">
+        📍 Abrir localização
+    </a>
+
+    <a class="botao"
+       href="https://wa.me/5521968910172?text=Olá! Gostaria de confirmar minha presença no aniversário da Maju."
+       target="_blank">
+        💛 Confirmar presença
+    </a>
+
+    <a class="botao"
+       href="lista1.png"
+       target="_blank">
+        🎁 Sugestão de presentes
+    </a>
+
+</div>
+
 </body>
 </html>
-
