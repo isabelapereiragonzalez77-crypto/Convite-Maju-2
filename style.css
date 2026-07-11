@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    background:#faf9f7;
+    font-family:Poppins,sans-serif;
+    color:#555;
+}
+
+.container{
+
+    max-width:420px;
+    margin:40px auto;
+    padding:35px;
+
+    background:white;
+
+    border-radius:25px;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+
+    text-align:center;
+
+    border:2px solid #d8b86a;
+}
+
+h1{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:55px;
+
+    color:#c8a64a;
+
+    margin-bottom:10px;
+}
+
+.frase{
+
+    font-size:17px;
+
+    margin-bottom:30px;
+}
+
+.card{
+
+    border:1px solid #e8d7a6;
+
+    padding:20px;
+
+    border-radius:18px;
+
+    margin-bottom:25px;
+
+    background:#fffdf8;
+}
+
+h2{
+
+    color:#b78b27;
+
+    font-size:35px;
+
+    margin:10px;
+}
+
+.obs{
+
+    color:#a77a19;
+
+    margin-top:20px;
+
+    font-weight:500;
+}
+
+.botao{
+
+    display:block;
+
+    text-decoration:none;
+
+    background:#c9a54c;
+
+    color:white;
+
+    padding:15px;
+
+    margin-top:15px;
+
+    border-radius:50px;
+
+    transition:.3s;
+}
+
+.botao:hover{
+
+    background:#aa8428;
+}
+
+strong{
+
+    color:#8a6920;
+}
